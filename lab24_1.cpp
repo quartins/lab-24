@@ -64,7 +64,7 @@ void List::append(int d){
 
 void List::remove(int idx){
 	Node *current = root ;
-	if( idx == 0){
+	if(idx == 0){
 		current = root->next;
 		delete root;
 		root = current;
