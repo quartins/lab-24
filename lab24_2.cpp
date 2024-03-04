@@ -44,6 +44,6 @@ int main(){
 	line_up.pop_front();
 
 	printList(line_up);
-		
+
 	return 0;
 }
